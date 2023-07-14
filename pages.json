@@ -1,0 +1,79 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "环境天气",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"pullToRefresh": {
+						"style": "circle",
+						"color": "#6d6d6d"
+					}
+				}
+			}
+		}, {
+			"path": "pages/log/log",
+			"style": {
+				"navigationBarTitleText": "运行日志",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+				
+					"pullToRefresh": {
+						"style": "circle",
+						"color": "#6d6d6d"
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/warn/warn",
+			"style": {
+				"navigationBarTitleText": "设备告警",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+
+					"pullToRefresh": {
+						"style": "circle",
+						"color": "#6d6d6d"
+					}
+				}
+
+
+			}
+
+		}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#BFBFBF",
+		"selectedColor": "#333333",
+		"list": [{
+				"text": "环境天气",
+				"pagePath": "pages/index/index",
+				"iconPath": "/static/Sensor1.png",
+				"selectedIconPath": "/static/Sensor.png"
+			},
+			{
+				"text": "设备告警",
+				"pagePath": "pages/warn/warn",
+				"iconPath": "/static/Warn1.png",
+				"selectedIconPath": "/static/Warn.png"
+
+			},
+			{
+				"text": "运行日志",
+				"pagePath": "pages/log/log",
+				"iconPath": "/static/log1.png",
+				"selectedIconPath": "/static/log.png"
+			}
+		]
+	}
+}

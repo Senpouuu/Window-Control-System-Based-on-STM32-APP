@@ -1,0 +1,1 @@
+<view class="{{['o-empty']}}" style="{{(Bg)}}"><image style="{{(ImgSize)}}" src="{{Img}}" mode="aspectFit"></image><view class="text">{{text}}</view><block wx:if="{{$slots.default}}"><view class="slot"><slot></slot></view></block></view>

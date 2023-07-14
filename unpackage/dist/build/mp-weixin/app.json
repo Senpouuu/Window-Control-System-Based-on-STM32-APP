@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/log/log",
+    "pages/warn/warn"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#BFBFBF",
+    "selectedColor": "#333333",
+    "list": [
+      {
+        "text": "环境天气",
+        "pagePath": "pages/index/index",
+        "iconPath": "/static/Sensor1.png",
+        "selectedIconPath": "/static/Sensor.png"
+      },
+      {
+        "text": "设备告警",
+        "pagePath": "pages/warn/warn",
+        "iconPath": "/static/Warn1.png",
+        "selectedIconPath": "/static/Warn.png"
+      },
+      {
+        "text": "运行日志",
+        "pagePath": "pages/log/log",
+        "iconPath": "/static/log1.png",
+        "selectedIconPath": "/static/log.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

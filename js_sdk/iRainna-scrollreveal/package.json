@@ -1,0 +1,15 @@
+{
+    "id": "iRainna-scrollreveal",
+    "displayName": "scrollreveal",
+    "version": "0.0.1",
+    "description": "scrollreveal库的动画，快捷使用，具体使用方法可看scrollrevealjs官网 https://scrollrevealjs.org/",
+    "keywords": [
+        "滚动动画"
+    ],
+    "dcloudext": {
+        "category": [
+            "JS SDK",
+            "通用 SDK"
+        ]
+    }
+}

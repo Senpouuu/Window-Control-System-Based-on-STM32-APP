@@ -1,0 +1,1 @@
+<view><block wx:if="{{type=='default'}}"><view class="{{['oea-'+name]}}" style="{{$root.s0}}"></view></block><block wx:if="{{type=='icofont'}}"><view class="{{['icofont-'+name]}}" style="{{$root.s1}}"></view></block></view>

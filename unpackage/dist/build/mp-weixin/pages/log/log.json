@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "运行日志",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "cowain-slide-action": "/uni_modules/cowain-slide-action/components/cowain-slide-action/cowain-slide-action",
+    "o-empty": "/uni_modules/o-empty/components/o-empty/o-empty"
+  }
+}

@@ -1,0 +1,1 @@
+<view class="oea-grid-wrap data-v-380c6002"><view class="{{['oea-grid','data-v-380c6002','vue-ref',(showBorder)?'oea-grid--border':'']}}" style="{{'border-left-color:'+(borderColor)+';'}}" id="{{elId}}" data-ref="oea-grid"><slot></slot></view></view>

@@ -1,0 +1,12 @@
+{
+    "id": "ay-operate",
+    "name": "操作组件：左滑删除，自定义任意内容",
+    "version": "1.0.1",
+    "description": "操作组件：左滑删除，自定义任意内容",
+    "keywords": [
+        "左滑删除"
+    ],
+    "dependencies": {
+        "animate.css": "^4.1.1"
+    }
+}

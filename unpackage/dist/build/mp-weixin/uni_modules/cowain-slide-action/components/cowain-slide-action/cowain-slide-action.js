@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["uni_modules/cowain-slide-action/components/cowain-slide-action/cowain-slide-action"],{"05f7":function(t,n,e){"use strict";var c=e("4264"),i=e.n(c);i.a},"0b8c":function(t,n,e){"use strict";(function(t){Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var e={props:{slideWidth:{type:Number,default:0}},data:function(){return{touchStartX:"",isTouchMove:!1,screenWidth:0}},created:function(){var n=this,e=t.getSystemInfoSync(),c=e.screenWidth;this.screenWidth=c,t.$on("slide-close",(function(){n.isTouchMove=!1}))},methods:{touchStartHandle:function(t){this.touchStartX=t.changedTouches[0].clientX},onclick:function(){this.isTouchMove=!1},touchEndHande:function(t){var n=this.touchStartX,e=t.changedTouches[0].clientX;this.isTouchMove=n-e>80}}};n.default=e}).call(this,e("543d")["default"])},"2fe4":function(t,n,e){"use strict";e.d(n,"b",(function(){return c})),e.d(n,"c",(function(){return i})),e.d(n,"a",(function(){}));var c=function(){var t=this.$createElement;this._self._c},i=[]},4264:function(t,n,e){},"684a":function(t,n,e){"use strict";e.r(n);var c=e("0b8c"),i=e.n(c);for(var o in c)["default"].indexOf(o)<0&&function(t){e.d(n,t,(function(){return c[t]}))}(o);n["default"]=i.a},8888:function(t,n,e){"use strict";e.r(n);var c=e("2fe4"),i=e("684a");for(var o in i)["default"].indexOf(o)<0&&function(t){e.d(n,t,(function(){return i[t]}))}(o);e("05f7");var u=e("f0c5"),a=Object(u["a"])(i["default"],c["b"],c["c"],!1,null,"cd1ca124",null,!1,c["a"],void 0);n["default"]=a.exports}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'uni_modules/cowain-slide-action/components/cowain-slide-action/cowain-slide-action-create-component',
+    {
+        'uni_modules/cowain-slide-action/components/cowain-slide-action/cowain-slide-action-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("8888"))
+        })
+    },
+    [['uni_modules/cowain-slide-action/components/cowain-slide-action/cowain-slide-action-create-component']]
+]);

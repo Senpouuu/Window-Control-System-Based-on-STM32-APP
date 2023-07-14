@@ -1,0 +1,1 @@
+.o-empty{min-height:380rpx;display:flex;flex-direction:column;padding:64rpx 0!important;align-items:center;justify-content:center;box-sizing:border-box}.center{text-align:center}.text{color:#969798;padding:20rpx 0}.slot{padding-top:20rpx}

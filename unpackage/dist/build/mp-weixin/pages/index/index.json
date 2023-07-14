@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "环境天气",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "oea-weather": "/uni_modules/oea-weather/components/oea-weather/oea-weather",
+    "oea-separate": "/uni_modules/oea-separate/components/oea-separate/oea-separate"
+  }
+}
